@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.top-container{
+    background-image: url("https://media.istockphoto.com/id/1436416795/photo/cybersecurity-specialist.jpg?s=2048x2048&w=is&k=20&c=HgHtRd3h9i-93bKFBHPyTKO7wfaViywBx063h99cdzU=");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    transition: backgroud-color 0.4s;
+    box-shadow:0 4px 8px rgba(0, 0, 0, .3) ;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0;
+    color: #000;
+    font-family: cursive;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar .active{
+    background-color: #000;
+}
+.active .active ul li a{
+    color: #fff;
+}
+
+
